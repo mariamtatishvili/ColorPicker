@@ -2,17 +2,18 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e6e6e6;
+ 
 }
 
 #color-input {
   display: none;
 }
 #color-label {
-  margin-left: 15px;
+  margin-left: 30px;
+  margin-top: 13px;
   position: absolute;
-  height: 50px;
-  width: 50px;
+  height: 125px;
+  width: 125px;
   
 } 
 #color-input:checked ~ #color-picker {
@@ -20,7 +21,8 @@ body {
 }
 #color-picker {
   position: absolute;
-  left: 70px; 
+  left: 20px; 
+  top: 220px;
   background-color: white;
   height: 150px;
   width: 185px;
@@ -30,4 +32,16 @@ body {
 }
 canvas:hover {
   cursor: crosshair;
+}
+h2 {
+
+background: red;
+    background: -webkit-linear-gradient(left, red, green, blue, violet);
+    background: -o-linear-gradient(right, red , green, blue, violet);
+    background: -moz-linear-gradient(right, red , blue, violet);
+    background: linear-gradient(to right, red , blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    
 }
